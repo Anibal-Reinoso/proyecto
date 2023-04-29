@@ -1,0 +1,74 @@
+/* Selectores globales */
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: #444;
+}
+
+/* Selectores para archivo index */
+
+table, th, td, caption {
+    border: 1px solid black;
+}
+  
+th, td {
+padding: 5px;
+}
+
+#mi_tabla {
+    background-color: yellowgreen;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+}
+
+#imagen img {
+    width: 35%;
+}
+
+* li {
+    font-family: sans-serif;
+    color: blue;
+}
+
+/* Selectores de contacto */
+
+.contacto p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-class {
+    background-color: brown;
+    color: seagreen;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-class:hover {
+    background-color: darkgoldenrod;
+}
