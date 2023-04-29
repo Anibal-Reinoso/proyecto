@@ -145,6 +145,11 @@
           <button class="button-class" id="button3">Boton 3</button>
         </div>
         <br>
+        <div class="button-container">
+          <button class="button-class" id="agregar">Agregar</button>
+          <button class="button-class" id="eliminar">Eliminar</button>
+          <button class="button-class" id="resetear">Resetear</button>
+        </div>
         <br>
         <br>
         <input type="number" name="" id="number-input">
@@ -181,6 +186,15 @@
       });
       $('#button3').click(function(){
         console.log('Pulsaste el boton 3');
+      });
+      $('#agregar').click(function(){
+        console.log('Agregaste un elemento');
+      });
+      $('#eliminar').click(function(){
+        console.log('eliminaste un elemento');
+      });
+      $('#resetear').click(function(){
+        console.log('Reseteaste todo a cero');
       });
     </script>
 </body>
